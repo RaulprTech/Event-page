@@ -1,8 +1,9 @@
 import React from 'react';
+import Button from './Button'
 
 function Home() {
     return (
-        <div className="bg-info">
+        <div className="container-fluid bg-info" id="home">
             <div className="row">
                 <div className="col-sm mr-auto ml-auto mt-3 md-2">
                     <img src="https://www.talent-land.mx/wp-content/uploads/2019/12/cl2019-jalisco-talent-land-2020-logo-03-480x203.png" className="img-fluid mx-auto d-block" alt="..." height="150px" width="350px"/>
@@ -15,14 +16,12 @@ function Home() {
                             <strong> Lugar del evento</strong>
                         </p>
                     </div>
-                    <p className="text-center text-white">
-                        <a type="button" className="btn btn-success text-white btn-lg m-1">Adquiere tu entrada</a>
-                    </p>
+                    <Button name="Adquiere tu Entrada" link="#entradas"/>
                 </div>
                 <div className="col-12 p-2"></div>
-                <div className="col-6 mr-auto ml-auto mt-3">
-                    <img src="https://www.talent-land.mx/wp-content/uploads/2020/01/tl2020-home-banner-enero-changing-the-world-01.png" className="img-fluid mx-auto d-block" alt="..." height="250px" width="450px"/>
-                </div>
+                    <div className="col-6 mr-auto ml-auto mt-3">
+                        <img src="https://www.talent-land.mx/wp-content/uploads/2020/01/tl2020-home-banner-enero-changing-the-world-01.png" className="img-fluid mx-auto d-block" alt="..." height="250px" width="450px"/>
+                    </div>
                 <div className="col-6 mr-auto ml-auto mt-3">
                     <img src="https://www.talent-land.mx/wp-content/uploads/2020/01/tl2020-home-banner-enero-personajes-lands-01.png" className="img-fluid mx-auto d-block" alt="..." height="250px" width="450px"/>
                 </div>
